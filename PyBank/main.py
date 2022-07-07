@@ -6,8 +6,6 @@
 import os
 import csv
 
-from numpy import average
-
 # create path for CSV file
 budget_csv = os.path.join('Resources', 'budget_data.csv')
 
