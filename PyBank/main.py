@@ -43,6 +43,7 @@ def py_bank (company_data):
     # declare the file path for the results
     output_path = os.path.join("analysis", "PyBank_Analysis.txt")
 
+    # write results in text file
     with open(output_path, 'w') as f:
         f.write("Financial Analysis\n")
         f.write("----------------------------\n")
