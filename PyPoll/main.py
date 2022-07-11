@@ -75,6 +75,7 @@ with open(poll_csv, 'r') as csvfile:
     # split the data on commas
     csvreader = csv.reader(csvfile, delimiter=',')
 
+    # read and store header row
     header = next(csvreader)
 
     # loop through the data to create an input for the function
